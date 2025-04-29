@@ -3,21 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Local TTT</title>
+    <title>tictactoe</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
 
     <div class="container">
       <div class="gameboard"></div>
-      <input type="text" class="player1" placeholder="player 1" />
-      <input type="text" class="player2" placeholder="player 2" />
+      <form action="#">
+        <input type="text" class="player1" placeholder="player 1"/>
+        <input type="text" class="player2" placeholder="player 2"/>
+        <button class="start">Click</button>
+        <button class="restart">Play again</button>
+      </form>
+      <div class="message"></div>
     </div>
 
 
-    <button class="start">Click</button>
-    <button class="restart">Play again</button>
-    <div class="winnerContainer"></div>
     <script src="scripts.js"></script>
   </body>
 </html>
